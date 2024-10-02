@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D3D069722CAD6E2600A181E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D069502CAD6E2200A181E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D069572CAD6E2200A181E0;
+			remoteInfo = ClassmateAppMeyer;
+		};
+		D3D0697C2CAD6E2600A181E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D069502CAD6E2200A181E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D069572CAD6E2200A181E0;
+			remoteInfo = ClassmateAppMeyer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3D069582CAD6E2200A181E0 /* ClassmateAppMeyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassmateAppMeyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D069712CAD6E2600A181E0 /* ClassmateAppMeyerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmateAppMeyerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D0697B2CAD6E2600A181E0 /* ClassmateAppMeyerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmateAppMeyerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D3D069832CAD6E2600A181E0 /* Exceptions for "ClassmateAppMeyer" folder in "ClassmateAppMeyer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D3D069572CAD6E2200A181E0 /* ClassmateAppMeyer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D3D0695A2CAD6E2200A181E0 /* ClassmateAppMeyer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D3D069832CAD6E2600A181E0 /* Exceptions for "ClassmateAppMeyer" folder in "ClassmateAppMeyer" target */,
+			);
+			path = ClassmateAppMeyer;
+			sourceTree = "<group>";
+		};
+		D3D069742CAD6E2600A181E0 /* ClassmateAppMeyerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ClassmateAppMeyerTests;
+			sourceTree = "<group>";
+		};
+		D3D0697E2CAD6E2600A181E0 /* ClassmateAppMeyerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ClassmateAppMeyerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D069552CAD6E2200A181E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D0696E2CAD6E2600A181E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D069782CAD6E2600A181E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D0694F2CAD6E2200A181E0 = {
+			isa = PBXGroup;
+			children = (
+				D3D0695A2CAD6E2200A181E0 /* ClassmateAppMeyer */,
+				D3D069742CAD6E2600A181E0 /* ClassmateAppMeyerTests */,
+				D3D0697E2CAD6E2600A181E0 /* ClassmateAppMeyerUITests */,
+				D3D069592CAD6E2200A181E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D069592CAD6E2200A181E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D069582CAD6E2200A181E0 /* ClassmateAppMeyer.app */,
+				D3D069712CAD6E2600A181E0 /* ClassmateAppMeyerTests.xctest */,
+				D3D0697B2CAD6E2600A181E0 /* ClassmateAppMeyerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D069572CAD6E2200A181E0 /* ClassmateAppMeyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D069842CAD6E2600A181E0 /* Build configuration list for PBXNativeTarget "ClassmateAppMeyer" */;
+			buildPhases = (
+				D3D069542CAD6E2200A181E0 /* Sources */,
+				D3D069552CAD6E2200A181E0 /* Frameworks */,
+				D3D069562CAD6E2200A181E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D3D0695A2CAD6E2200A181E0 /* ClassmateAppMeyer */,
+			);
+			name = ClassmateAppMeyer;
+			packageProductDependencies = (
+			);
+			productName = ClassmateAppMeyer;
+			productReference = D3D069582CAD6E2200A181E0 /* ClassmateAppMeyer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3D069702CAD6E2600A181E0 /* ClassmateAppMeyerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D069892CAD6E2600A181E0 /* Build configuration list for PBXNativeTarget "ClassmateAppMeyerTests" */;
+			buildPhases = (
+				D3D0696D2CAD6E2600A181E0 /* Sources */,
+				D3D0696E2CAD6E2600A181E0 /* Frameworks */,
+				D3D0696F2CAD6E2600A181E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D069732CAD6E2600A181E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3D069742CAD6E2600A181E0 /* ClassmateAppMeyerTests */,
+			);
+			name = ClassmateAppMeyerTests;
+			packageProductDependencies = (
+			);
+			productName = ClassmateAppMeyerTests;
+			productReference = D3D069712CAD6E2600A181E0 /* ClassmateAppMeyerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3D0697A2CAD6E2600A181E0 /* ClassmateAppMeyerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D0698C2CAD6E2600A181E0 /* Build configuration list for PBXNativeTarget "ClassmateAppMeyerUITests" */;
+			buildPhases = (
+				D3D069772CAD6E2600A181E0 /* Sources */,
+				D3D069782CAD6E2600A181E0 /* Frameworks */,
+				D3D069792CAD6E2600A181E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D0697D2CAD6E2600A181E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3D0697E2CAD6E2600A181E0 /* ClassmateAppMeyerUITests */,
+			);
+			name = ClassmateAppMeyerUITests;
+			packageProductDependencies = (
+			);
+			productName = ClassmateAppMeyerUITests;
+			productReference = D3D0697B2CAD6E2600A181E0 /* ClassmateAppMeyerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D069502CAD6E2200A181E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D3D069572CAD6E2200A181E0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D3D069702CAD6E2600A181E0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D3D069572CAD6E2200A181E0;
+					};
+					D3D0697A2CAD6E2600A181E0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D3D069572CAD6E2200A181E0;
+					};
+				};
+			};
+			buildConfigurationList = D3D069532CAD6E2200A181E0 /* Build configuration list for PBXProject "ClassmateAppMeyer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3D0694F2CAD6E2200A181E0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D3D069592CAD6E2200A181E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D069572CAD6E2200A181E0 /* ClassmateAppMeyer */,
+				D3D069702CAD6E2600A181E0 /* ClassmateAppMeyerTests */,
+				D3D0697A2CAD6E2600A181E0 /* ClassmateAppMeyerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D069562CAD6E2200A181E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D0696F2CAD6E2600A181E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D069792CAD6E2600A181E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D069542CAD6E2200A181E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D0696D2CAD6E2600A181E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D069772CAD6E2600A181E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3D069732CAD6E2600A181E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D069572CAD6E2200A181E0 /* ClassmateAppMeyer */;
+			targetProxy = D3D069722CAD6E2600A181E0 /* PBXContainerItemProxy */;
+		};
+		D3D0697D2CAD6E2600A181E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D069572CAD6E2200A181E0 /* ClassmateAppMeyer */;
+			targetProxy = D3D0697C2CAD6E2600A181E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3D069852CAD6E2600A181E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClassmateAppMeyer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppMeyer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D069862CAD6E2600A181E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClassmateAppMeyer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppMeyer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3D069872CAD6E2600A181E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3D069882CAD6E2600A181E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D0698A2CAD6E2600A181E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppMeyerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassmateAppMeyer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClassmateAppMeyer";
+			};
+			name = Debug;
+		};
+		D3D0698B2CAD6E2600A181E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppMeyerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassmateAppMeyer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClassmateAppMeyer";
+			};
+			name = Release;
+		};
+		D3D0698D2CAD6E2600A181E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppMeyerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClassmateAppMeyer;
+			};
+			name = Debug;
+		};
+		D3D0698E2CAD6E2600A181E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppMeyerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClassmateAppMeyer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D069532CAD6E2200A181E0 /* Build configuration list for PBXProject "ClassmateAppMeyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D069872CAD6E2600A181E0 /* Debug */,
+				D3D069882CAD6E2600A181E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D069842CAD6E2600A181E0 /* Build configuration list for PBXNativeTarget "ClassmateAppMeyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D069852CAD6E2600A181E0 /* Debug */,
+				D3D069862CAD6E2600A181E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D069892CAD6E2600A181E0 /* Build configuration list for PBXNativeTarget "ClassmateAppMeyerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D0698A2CAD6E2600A181E0 /* Debug */,
+				D3D0698B2CAD6E2600A181E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D0698C2CAD6E2600A181E0 /* Build configuration list for PBXNativeTarget "ClassmateAppMeyerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D0698D2CAD6E2600A181E0 /* Debug */,
+				D3D0698E2CAD6E2600A181E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D069502CAD6E2200A181E0 /* Project object */;
+}
