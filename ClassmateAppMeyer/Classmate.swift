@@ -9,13 +9,17 @@ import Foundation
 
 class Classmate {
     var name: String
-    var attendence: String
+    var attendence: Attendance
     var nickname: String
 
-    init(name: String, attendence: String, nickname: String) {
+    init(name: String, attendence: Attendance, nickname: String) {
         self.name = name
         self.attendence = attendence
         self.nickname = nickname
     }
     
+}
+
+enum Attendance: Int {
+    case present = 0, tardy, absent
 }

@@ -8,9 +8,9 @@
 import UIKit
 class AppData{
     static var num = 0
-    static var names = [String]()
-    static var attendence = [String]()
-    static var nickname = [String]()
+    static var classroom = [Classmate]()
+    static var score = 0
+    static var outOf = 0
 }
 
 class ViewController: UIViewController {
@@ -21,28 +21,135 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        classroom.append(Classmate(name: "Evan", attendence: "Present", nickname: "Flutin Evan"))
-        classroom.append(Classmate(name: "Eva", attendence: "Tardy", nickname: "No Pickle Noftz"))
-        classroom.append(Classmate(name: "Ava", attendence: "Present", nickname: "Abba Ava"))
-        classroom.append(Classmate(name: "Justin", attendence: "Absent", nickname: "Wicked Weber"))
-        classroom.append(Classmate(name: "Brennan", attendence: "Present", nickname: "Breaking Brennan"))
-        classroom.append(Classmate(name: "Cam", attendence: "Present", nickname: "Chef Cam"))
-        classroom.append(Classmate(name: "John", attendence: "Present", nickname: "Jimmy John"))
-        classroom.append(Classmate(name: "Jayden", attendence: "Absent", nickname: "Sleepy Sawyer"))
-        classroom.append(Classmate(name: "Sean", attendence: "Absent", nickname: "Boat Gone Sean"))
-        classroom.append(Classmate(name: "Ryan", attendence: "Tardy", nickname: "Rainbow Ryan"))
-        classroom.append(Classmate(name: "Logan", attendence: "Absent", nickname: "Goog Ball Googan"))
-        classroom.append(Classmate(name: "Michael", attendence: "Tardy", nickname: "Michael Michael Motorcycle"))
-        classroom.append(Classmate(name: "Daniel", attendence: "Present", nickname: "Bananiel"))
-        classroom.append(Classmate(name: "Matthew", attendence: "Absent", nickname: "Glitch Fitch"))
-        classroom.append(Classmate(name: "Ryan", attendence: "Present", nickname: "Rat Ryan"))
-        classroom.append(Classmate(name: "Peter", attendence: "Present", nickname: "Peter Kickle"))
-        while(AppData.names.count-1 < classroom.count-1){
-            AppData.names.append("\(classroom[hi].name)")
-            AppData.attendence.append("\(classroom[hi].attendence)")
-            AppData.attendence.append("\(classroom[hi].nickname)")
-            hi += 1
-        }
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Evan",
+                    attendence: .present,
+                    nickname: "Flutin Evan"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Eva",
+                    attendence: .tardy,
+                    nickname: "No Pickle Noftz"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Ava",
+                    attendence: .present,
+                    nickname: "Abba Ava"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Justin",
+                    attendence: .absent,
+                    nickname: "Wicked Weber"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Brennan",
+                    attendence: .present,
+                    nickname: "Breaking Brennan"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Cam",
+                    attendence: .present,
+                    nickname: "Chef Cam"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "John",
+                    attendence: .present,
+                    nickname: "Jimmy John"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Jayden",
+                    attendence: .absent,
+                    nickname: "Sleepy Sawyer"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Sean",
+                    attendence: .absent,
+                    nickname: "Boat Gone Sean"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Ryan",
+                    attendence: .tardy,
+                    nickname: "Rainbow Ryan"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Logan",
+                    attendence: .absent,
+                    nickname: "Goog Ball Googan"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Michael",
+                    attendence: .tardy,
+                    nickname: "Michael Michael Motorcycle"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Daniel",
+                    attendence: .present,
+                    nickname: "Bananiel"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Matthew",
+                    attendence: .absent,
+                    nickname: "Glitch Fitch"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Ryan",
+                    attendence: .present,
+                    nickname: "Rat Ryan"
+                )
+            )
+        AppData.classroom
+            .append(
+                Classmate(
+                    name: "Peter",
+                    attendence: .present,
+                    nickname: "Peter Kickle"
+                )
+            )
+        
     }
     
     @IBAction func editorModeAction(_ sender: UIButton) {
@@ -52,24 +159,27 @@ class ViewController: UIViewController {
     }
     
     @IBAction func prevAction(_ sender: UIButton) {
-        if(AppData.num == 0){
-            AppData.num = classroom.count-1
-        }
-        else{
+        if AppData.num == 0 {
+            AppData.num = AppData.classroom.count - 1
+        } else {
             AppData.num -= 1
         }
-        studentOutlet.text = "Student:\nName: \(classroom[AppData.num].name)\nNickname: \(classroom[AppData.num].nickname)\n Attendence: \(classroom[AppData.num].attendence)"
+        updateStudentDisplay()
+       
     }
     
     @IBAction func nextAction(_ sender: UIButton) {
-                if(AppData.num == classroom.count-1){
+        if AppData.num == AppData.classroom.count - 1 {
             AppData.num = 0
-        }
-        else{
+        } else {
             AppData.num += 1
         }
-        studentOutlet.text = "Student:\nName: \(classroom[AppData.num].name)\nNickname: \(classroom[AppData.num].nickname)\n Attendence: \(classroom[AppData.num].attendence)"
-        
+        updateStudentDisplay()
+    }
+    func updateStudentDisplay() {
+        guard AppData.num < AppData.classroom.count else { return }
+        let student = AppData.classroom[AppData.num]
+        studentOutlet.text = "Name: \(student.name)\nAttendence: \(student.attendence)\nNickname: \(student.nickname)"
     }
     
 }
