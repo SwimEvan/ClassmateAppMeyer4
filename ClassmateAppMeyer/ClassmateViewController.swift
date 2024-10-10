@@ -25,9 +25,12 @@ class ClassmateViewController: UIViewController {
     
     
     @IBAction func goAction(_ sender: UIButton) {
+        print(AppData.classroom[AppData.num].nickname)
         AppData.outOf += 1
         if(answerTF.text == AppData.classroom[AppData.num].nickname){
+            AppData.score+=1
             resultLabel.text = "Your correct!\nScore: \(AppData.score)/\(AppData.outOf)"
+            
             newQuestion()
         }
         else{
